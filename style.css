@@ -1,0 +1,174 @@
+body {
+    background-image: url(bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #684bb1;
+  }
+  header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+  }
+  .logo {
+    width: 100px;
+    padding-left: 32px;
+  }
+  .mockups-conteiner {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+  }
+  .mockups {
+    width: 100%;
+  }
+  section {
+    padding-left: 36px;
+    padding-right: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 64px;
+  }
+  
+  
+  h1 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 16px;
+    width:11.5em;
+  }
+  p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 24px;
+  }
+  
+  .register {
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: 0px;
+    padding: 0px;
+    background: #ffffff;
+    box-shadow: 1px 3px 5px 0px #00000045;
+    color: #684bb1;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    cursor: pointer;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10.86px;
+    margin-bottom: 40px;
+  }
+  .fa {
+    height: 28px;
+    width: 27.142234802246094px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 0.798301px solid #ffffff;
+    font-size:13px;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  .fa-twitter {
+    color: white;
+  }
+  .fa-instagram {
+    color: white;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    body {
+      flex-direction: row;
+      background-image: url(bg-desktop.svg);
+    }
+    header{
+      align-items:flex-end;
+      margin-bottom:104px;
+    }
+    .logo{
+      width: 200px;
+      padding-left:80px;
+    }
+    main {
+      display: flex;
+      padding-left:80px;
+      padding-right:85px;
+      gap:59px;
+    }
+    .mockups-conteiner {
+      padding:0px;
+      width:53%
+      
+    }
+    section {
+      
+      justify-content: center;
+      align-items:flex-start;
+      gap:24px;
+      padding:0px;
+      width:47%
+    }
+    h1 {
+      font-family: Poppins;
+      font-size: 40px;
+      line-height: 60px;
+      text-align: left;
+      padding:0px;
+      
+    }
+    p {
+      font-family: Open Sans;
+      font-size: 18px;
+      line-height: 27px;
+      text-align: left;
+      width:520px;
+      padding:0px;
+    }
+    .register{
+    height: 56px;
+    width: 200px;
+    border-radius: 28px;
+    background: #E880E8;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  
+  }
+  footer{
+    justify-content: flex-end;
+    padding-right:80px;
+  }
+  .fa{
+    width:40px;
+    height:40px;
+    font-size:19px;
+  }
+}
